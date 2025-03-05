@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    background: #333;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    color: white;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.song-details h2 {
+    margin: 10px 0 5px;
+}
+
+.song-details p {
+    color: #bbb;
+    font-size: 14px;
+}
+
+.progress-bar {
+    margin-top: 15px;
+}
+
+input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.controls button {
+    background: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background: #777;
+}
+
+.volume-control {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.volume-control img {
+    width: 20px;
+    margin-right: 10px;
+}
